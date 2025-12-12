@@ -1,5 +1,4 @@
-# FPGA-ESE2-HAKKI_PENELU
-TP FPGA - ESE 2025/26
+# FPGA – DE10-Nano Project
 
 This repository contains our FPGA lab work using the **DE10-Nano** board and **Intel Quartus Prime Lite** on **Linux**.  
 The project follows the progression defined in the FPGA TP instructions, starting from basic Quartus usage to a small graphical project using HDMI.
@@ -79,7 +78,7 @@ The following RTL Viewer snapshot confirms the expected hardware structure gener
 - Adders and multiplexers to increment or decrement the counter
 - A register storing the encoder position
 
-![RTL Viewer – Encoder logic](figures/rtl_encoder.jpg)
+![RTL Viewer – Encoder logic](figures/rtl_encoder.png)
 
 ---
 
@@ -182,7 +181,7 @@ begin
     o_de10_leds <= (others => '0');
 
 end architecture rtl;
-
+```
 ---
 
 ## Notes
@@ -204,4 +203,4 @@ end architecture rtl;
 
 ## Authors
 
-FPGA lab project – ENSEA  
+FPGA lab project – ENSEA
