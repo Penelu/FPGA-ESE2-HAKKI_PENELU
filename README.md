@@ -1,5 +1,9 @@
 # FPGA – DE10-Nano Project
 
+Authors:
+- João Pedro PENELU
+- Houssam HAKKI
+
 This repository contains our FPGA lab work using the **DE10-Nano** board and **Intel Quartus Prime Lite** on **Linux**.  
 The project follows the progression defined in the FPGA TP instructions, starting from basic Quartus usage to a small graphical project using HDMI.
 
@@ -182,6 +186,31 @@ begin
 
 end architecture rtl;
 ```
+
+## HDMI Output – First Test
+
+After validating the encoder logic, we performed a first test of the **HDMI output** using the DE10-Nano board.
+
+The HDMI signal was connected to a **HDMI-to-USB capture adapter**, allowing the video output of the FPGA to be displayed directly on the computer without the need for an external monitor. The capture was visualized using standard video software on Linux.
+
+During this test, a valid HDMI signal was successfully generated. The image appeared correctly on the computer screen, confirming:
+- Proper HDMI clock generation using the PLL
+- Correct I2C configuration of the HDMI transmitter
+- Functional HDMI data path from the FPGA to the host computer
+
+This successful test validates the HDMI hardware and configuration chain, allowing the project to move forward to pixel control and drawing functionalities.
+
+---
+
+### HDMI Test Setup
+
+![HDMI test setup](HDMI_test.jpg)
+
+The photo above shows the experimental setup used for the HDMI validation:
+- DE10-Nano FPGA board with ENSEA mezzanine
+- HDMI cable connected to a HDMI-to-USB capture adapter
+- Linux laptop displaying the HDMI output
+
 ---
 
 ## Notes
@@ -203,4 +232,4 @@ end architecture rtl;
 
 ## Authors
 
-FPGA lab project – ENSEA
+FPGA lab project – ENSEA  
