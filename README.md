@@ -79,7 +79,7 @@ The following RTL Viewer snapshot confirms the expected hardware structure gener
 - Adders and multiplexers to increment or decrement the counter
 - A register storing the encoder position
 
-![RTL Viewer – Encoder logic](figures/rtl_encoder.png)
+![RTL Viewer – Encoder logic](figures/rtl_encoder.jpg)
 
 ---
 
