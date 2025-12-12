@@ -82,7 +82,7 @@ The following RTL Viewer snapshot confirms the expected hardware structure gener
 - Adders and multiplexers to increment or decrement the counter
 - A register storing the encoder position
 
-![RTL Viewer – Encoder logic](figures/rtl_encoder.png)
+![RTL Viewer – Encoder logic](figures/rtl_encoder.jpg)
 
 ---
 
@@ -204,7 +204,7 @@ This successful test validates the HDMI hardware and configuration chain, allowi
 
 ### HDMI Test Setup
 
-![HDMI test setup](HDMI_test.jpg)
+![HDMI test setup](figures/HDMI_test.jpg)
 
 The photo above shows the experimental setup used for the HDMI validation:
 - DE10-Nano FPGA board with ENSEA mezzanine
