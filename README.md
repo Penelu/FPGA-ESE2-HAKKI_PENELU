@@ -230,6 +230,3 @@ The photo above shows the experimental setup used for the HDMI validation:
 
 ---
 
-## Authors
-
-FPGA lab project – ENSEA  
